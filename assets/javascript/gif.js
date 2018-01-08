@@ -16,20 +16,20 @@ $("button").on("click", function() {
     })
     .done(function(response) {
         console.log(queryURL);
-        console.log(response);
+        //console.log(response);
         //var results = response.data;
-    //for (var i = 0; i < results.length; i++) {
-      //  if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
-        //    var animalDiv = $("<div>");
-          //  var rating = results[i].rating;
+        //for (var i = 0; i < results.length; i++) {
+        //if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
+            //var animalDiv = $("<div>");
+            //var rating = results[i].rating;
             //var p = $("<p>").text("Rating" + rating);
-           // var animalImage = $("<img>");
-           // animalImage.attr("src", results[i].object.data.url);
-           // animalDiv.append(p);
-           // animalDiv.append(animalImage);
-           // $("#animals").append(animalDiv);
-       // }
-   // }
+            //var animalImage = $("<img>");
+            //animalImage.attr("src", results[i].object.data.url);
+            //animalDiv.append(p);
+            //animalDiv.append(animalImage);
+            //$("#animals").append(animalDiv);
+        //}
+      //}
     })
 
     
